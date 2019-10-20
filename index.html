@@ -185,26 +185,9 @@
 <li>第三部分：相关评论的设置、标签、浏览量</li>
 </ul>
 <hr>
-<p>#第一部分<br>hexo的初步搭建以及个人域名的绑定，绑定github<br>##hexo的搭建步骤</p>
-<ol>
-<li><p>安装Git</p>
-</li>
-<li><p>安装Node.js</p>
-</li>
-<li><p>安装Hexo</p>
-</li>
-<li><p>Github创建个人仓库</p>
-</li>
-<li><p>生成SSH添加到Github</p>
-</li>
-<li><p>Hexo部署到Github</p>
-</li>
-<li><p>设置个人域名</p>
-</li>
-<li><p>发表文章</p>
-<h4 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1. 安装Git"></a>1. 安装Git</h4><p>windows:在Git官网上下载<a href="https://gitforwindows.org/" target="_blank" rel="noopener">Download Git</a>,下载有Git Bush工具，用此来操作Git<br>linux  :     <code>sudo apt-get install git</code> </p>
-<p>安装好后，用<code>git --version</code> 查看Git版本</p>
-<h4 id="2-安装Node-js"><a href="#2-安装Node-js" class="headerlink" title="2. 安装Node.js"></a>2. 安装Node.js</h4><p>windows:在Node官网上下载<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Download Node</a>,根据自己电脑型号和版本号选择合适的<br>linux  : </p>
+<p>#第一部分<br>hexo的初步搭建以及个人域名的绑定，绑定github<br>##hexo的搭建步骤<br>1.安装Git<br>2.安装Node.js<br>3.安装Hexo<br>4.Github创建个人仓库<br>5.生成SSH添加到Github<br>6.Hexo部署到Github<br>7.设置个人域名<br>8.发表文章</p>
+<h4 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1. 安装Git"></a>1. 安装Git</h4><p>windows:在Git官网上下载<a href="https://gitforwindows.org/" target="_blank" rel="noopener">Download Git</a>,下载有Git Bush工具，用此来操作Git<br>linux  :     <code>sudo apt-get install git</code><br>安装好后，用<code>git --version</code> 查看Git版本</p>
+<h4 id="2-安装Node-js"><a href="#2-安装Node-js" class="headerlink" title="2. 安装Node.js"></a>2. 安装Node.js</h4><p>windows:在Node官网上下载<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Download Node</a>,根据自己电脑型号和版本号选择合适的<br>linux  :</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install nodejs</span><br><span class="line">sudo apt-get install npm</span><br></pre></td></tr></table></figure>
 <p>安装好后，使用命令行查看是否安装成功</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
@@ -213,8 +196,6 @@
 <p>接着cd到此文件夹</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd yourBlog //进入此文件夹</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
 <p>新建完成后，指定目录下有</p>
-</li>
-</ol>
 <ul>
 <li>node modules : 依赖包</li>
 <li>public : 存放生成的页面</li>
